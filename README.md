@@ -10,7 +10,7 @@ Add template
 1.cp omreport.conf /etc/zabbix/zabbix_agentd.d/   
 2.cp -r openmanager /etc/zabbix/   
 3.chmod +x /etc/zabbix/openmanager/*.sh   
-4.systemctr restart zabbix-agent (OR reboot)   
+4.systemctl restart zabbix-agent (OR reboot)   
 5.zabbix:Configuration--Templates--Import,zbx_export_DELL_OMSA_templates.xml   
 
 Have fun!thinks for github people!
